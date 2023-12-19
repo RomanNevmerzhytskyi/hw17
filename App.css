@@ -1,0 +1,49 @@
+.meal-btn{
+    width: 180px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meal-btn:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal__header{
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+.meal__thumbnail{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.meal__thumbnail img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ing{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
